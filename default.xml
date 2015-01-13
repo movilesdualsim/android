@@ -34,6 +34,8 @@
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs" />
+  <project path="device/yu/tomato" name="CyanogenMod/android_device_yu_tomato" groups="device,yu" remote="github" revision="kitkat" />
+  <project path="device/yu/android_kernel_yu_msm8916" name="device/yu/android_kernel_yu_msm8916" groups="device,yu" />
   <project path="device/common" name="CyanogenMod/android_device_common" groups="pdk-cw-fs" />
   <project path="device/generic/arm64" name="CyanogenMod/android_device_generic_arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
